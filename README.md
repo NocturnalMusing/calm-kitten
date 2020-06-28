@@ -117,53 +117,54 @@ useEffect(() => {
 ```
 src
 |__ assets/
-      |__ data-tests
-      |__ fonts
       |__ images
-      |__ wireframes
 |__ components/
-      |__ Header.jsx
-      |__ Hero.jsx
-      |__ Ipsum.jsx
-      |__ Lorem.jsx
-      |__ CTA.jsx
-      |__ Footer.jsx
+      |__ App.js
+      |__ Home.js
+      |__ Joke.js
+      |__ Quote.js
+      |__ Image.js
+      |__ Help.js
+      |__ Header.js
+      |__ Button.js
+      |__ Footer.js
 ```
 
 <br>
 
 #### MVP Breakdown
 
-> Use this section to go into further depth regarding every component, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
-
 |  Component   |    Type    | state | props | hooks | Description                                |
 | :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
-|    App.js    |   class    |   y   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Header    | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Navigation  | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Home     | functional |   n   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Index     | functional |   n   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Detail    | functional |   n   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|   Gallery    |   class    |   y   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-| Gallery Card | functional |   n   |   y   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Footer    | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
+|    App.js    |   class    |   y   |   n   |   y   | _App.js_ |
+|    Home.js    | functional |   n   |   n   |   n   | _Website landing page_ |
+| Input.js     |    class     |    y     |    n     |    n     | _Input area which accepts specific text input_ |
+|  Joke.js  | functional |   n   |   y   |   n   | _Page displaying a dad joke_ |
+|     Quote.js     | functional |   n   |   y   |   n   | _Page displaying an inspirational quote and who said it_ |
+|    Image.js     | functional |   n   |   y   |   n   | _Page background will change to a random nature image_ |
+|    Help.js    | functional |   n   |   n   |   n   | _A page displaying a scrollable div of suicide prevention hotlines_ |
+|   Header.js    |   class    |   n   |   n   |   n   | _A div containing the various headers_ |
+|  Button.js | functional |   n   |   y   |   y   | _A button, whose display text may change_ |
+|    Footer.js    | functional |   n   |   n   |   n   | _A div containing the footer_ |
 
 <br>
 
 #### MVP Timeframes
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
-
 | Task             | Priority | Estimated Time | Time Invested | Actual Time |
 | ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL            |          |     6 hrs      |     3 hrs     |     TBD     |
+| Create Files |    H     |     10 mins      |     TBD     |    TBD    |
+| Create Header and Footer Components      |    H     |     1 hrs      |     TBD    |     TBD     |
+| Create Input Component     |    H     |     1 hrs      |     TBD     |     TBD     |
+| Use specific inputs to trigger specific API calls and page changes    |    H     |     3 hrs      |     TBD     |     TBD     |
+| Use API call to populate Joke.js     |    H     |     3 hrs      |     TBD     |     TBD     |
+| Use API call to populate Quote.js     |    H     |     3 hrs      |     TBD     |     TBD     |
+| Use API call to populate Picture.js     |    H     |     3 hrs      |     TBD     |     TBD     |
+| Populate Help.js with Information     |    H     |     30mins      |     TBD    |     TBD     |
+| Add Mascot to Pages     |    M     |     3 hrs      |     TBD     |     TBD     |
+| Add basic 'bounce' animation to mascot     |    M     |     30mins      |     TBD     |     TBD     |
+| Overall Styling in CSS   |    H     |     3 hrs      |     TBD     |     TBD     |
+| TOTAL            |          |     21 hrs      |     TBD    |     TBD     |
 
 <br>
 
