@@ -83,10 +83,13 @@ useEffect(() => {
     }, [])
 
 ```iCanHazDadJoke
+! (https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_10.42.55_AM_u0joa9.png)
 
 ``` Quotes
+! (https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_11.40.47_AM_byysjn.png)
 
 ``` Pixabay
+! (https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_11.33.16_AM_krbcuk.png)
 
 ```
 
