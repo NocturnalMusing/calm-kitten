@@ -37,13 +37,14 @@ _**The Calm Kitten**_ is a site meant to help refocus and divert attention from 
 ![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/Other_three_pages_wv09qd.png)
 
 - Mobile Help
+
 ![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/I_Need_Help_Sc_Mobile_ixd6fa.png)
 
 <br>
 
 ### MVP
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The goal for my MVP is to have the requisite data rendering on page when calls are requested. As the site is simple in design, my focus will initially be on implementing the various API calls and rendering their data and desired._
 
 <br>
 
