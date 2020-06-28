@@ -164,7 +164,10 @@ src
 | Add Mascot to Pages     |    M     |     3 hrs      |     TBD     |     TBD     |
 | Add basic 'bounce' animation to mascot     |    M     |     30mins      |     TBD     |     TBD     |
 | Overall Styling in CSS   |    H     |     3 hrs      |     TBD     |     TBD     |
-| TOTAL            |          |     21 hrs      |     TBD    |     TBD     |
+| Styling Changes for Tablet Version     |    L     |     3 hrs      |     TBD     |     TBD     |
+| Component Alterations for Mobile     |    H     |     3 hrs      |     TBD     |     TBD     |
+| Styling Changes for Mobile Version     |    M     |     3 hrs      |     TBD     |     TBD     |
+| TOTAL            |          |     30 hrs      |     TBD    |     TBD     |
 
 <br>
 
