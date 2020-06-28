@@ -8,7 +8,7 @@
 
 ### Description
 
-_**The Calm Kitten** is a site meant to help refocus and divert attention from current events or circumstances which are causing anxiety or discomfort. By interacting with the kitten itself, users will be forced to split their attention and hopefully avoid impending anxiety attacks. Users will have the option to view a photograph of nature, get a dad joke to make them laugh, get an inspirational quote, or be directed to a page with contact information for international suicide prevention hotlines.
+_**The Calm Kitten**_ is a site meant to help refocus and divert attention from current events or circumstances which are causing anxiety or discomfort. By interacting with the kitten itself, users will be forced to split their attention and hopefully avoid impending anxiety attacks. Users will have the option to view a photograph of nature, get a dad joke to make them laugh, get an inspirational quote, or be directed to a page with contact information for international suicide prevention hotlines.
 
 ### Wireframes
 
