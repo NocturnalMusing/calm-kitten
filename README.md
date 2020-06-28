@@ -12,31 +12,32 @@ _**The Calm Kitten**_ is a site meant to help refocus and divert attention from 
 
 ### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
+- Landing Page ( Desktop )
 
-![Dummy Link](url)
+![https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/Landing_Page_hp7fwd.png](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/Landing_Page_hp7fwd.png)
 
-- Desktop Landing
+- Desktop Joke / Quote
 
-![Dummy Link](url)
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/Joke_Quote_Screen_knf1c6.png)
 
-- Desktop Body
+- Desktop Photo 
 
-![Dummy Link](url)
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367962/Show_Me_Smth_Beautiful_Screen_rge8uj.png)
 
-- Desktop Resource Index
+- Desktop Help
 
-![Dummy Link](url)
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/I_Need_Help_Screen_zeoh4p.png)
 
-- Desktop Resource Show
+- Mobile Landing
 
-![Dummy Link](url)
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/Mobile_Landing_eoceve.png)
 
-- Tablet Resource Index
+- Mobile Joke / Photo / Quote
 
-![Dummy Link](url)
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/Other_three_pages_wv09qd.png)
 
-- Mobile Resource Index
+- Mobile Help
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593367954/I_Need_Help_Sc_Mobile_ixd6fa.png)
 
 <br>
 
@@ -84,13 +85,16 @@ useEffect(() => {
 
 ```
 **iCanHazDadJoke**
-! [ Dad Joke Call ] (https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_10.42.55_AM_u0joa9.png)
+
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_10.42.55_AM_u0joa9.png)
 
 **Quotes**
-! [ Quotes Call ] (https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_11.40.47_AM_byysjn.png)
+
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_11.40.47_AM_byysjn.png)
 
 **Pixabay**
-! [Pixabay Call] (https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_11.33.16_AM_krbcuk.png)
+
+![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_11.33.16_AM_krbcuk.png)
 
 
 
@@ -98,13 +102,10 @@ useEffect(() => {
 
 #### MVP Libraries & Dependencies
 
-> Use this section to list the key supporting libraries and their role in the project.
-
 |   Library    | Description                                |
 | :----------: | :----------------------------------------- |
-|    React     | _Lorem ipsum dolor sit amet, consectetur._ |
-| React Router | _Lorem ipsum dolor sit amet, consectetur._ |
-| React Spring | _Lorem ipsum dolor sit amet, consectetur._ |
+|    React     | _React will provide the building blocks to form components that will make up this site._ |
+| React Router | _React Router will allow pagination_ |
 
 <br>
 
@@ -167,9 +168,11 @@ src
 
 ### Post-MVP
 
+- Add background noise player ( rain ) with on / off button
 - Add interactivity with mascot character in response to further inputs
 - Add button to remove input and replace with easy access clickable buttons, which will take the user to the same pages as the previous input ( this is for ease of access )
 - Following some research, implement a specifically anti-anxiety page 
+- Add "Show me something cute" to generate animal pictures instead
 
 <br>
 
