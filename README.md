@@ -59,7 +59,7 @@ _The goal for my MVP is to have the requisite data rendering on page when calls 
 |    API     | Quality Docs? | Documentation | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
 | iCanHazDadJoke |      yes      | https://icanhazdadjoke.com/api | _`https://icanhazdadjoke.com/` , { headers: { Accept: 'application/JSON' } }_ |
-| Quotes API |      yes      | http://forismatic.com/en/api/ | _https://cors-anywhere.herokuapp.com/http://api.forismatic.com/api/1.0/format=json&lang=en_ |
+| Quotes API |      yes      | https://type.fit/api/quotes | _https://type.fit/api/quotes_ |
 | Pixabay |      yes      | https://pixabay.com/api/docs/ | _https://pixabay.com/api/?key={KEY HERE}&category=nature_ |
 
 Sample Query Results:
@@ -82,7 +82,7 @@ useEffect(() => {
 
 **Quotes**
 
-![](https://res.cloudinary.com/nocturnalmusing/image/upload/v1593365924/Screen_Shot_2020-06-28_at_11.40.47_AM_byysjn.png)
+**Changed API**
 
 **Pixabay**
 
@@ -148,7 +148,7 @@ src
 | Create Input Component     |    H     |     1 hrs      |     TBD     |     TBD     |
 | Use specific inputs to trigger specific page changes   |    H     |     3 hrs      |     TBD     |     TBD     |
 | Use API call to populate Joke.js     |    H     |     3 hrs      |     30mins     |     30mins     |
-| Use API call to populate Quote.js     |    H     |     3 hrs      |     TBD     |     TBD     |
+| Use API call to populate Quote.js     |    H     |     3 hrs      |     1hrs    |     TBD     |
 | Populate Help.js with Information     |    H     |     30mins      |     TBD    |     TBD     |
 | Add Mascot to Pages     |    M     |     3 hrs      |     TBD     |     TBD     |
 | Add basic 'bounce' animation to mascot     |    M     |     30mins      |     TBD     |     TBD     |
@@ -183,4 +183,5 @@ src
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+**Issue**: Previously used API for the inspirational quotes section ceased to return required data. 
+_Solution_: Acquired new API and implemented its use to populate data.

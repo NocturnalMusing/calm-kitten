@@ -19,13 +19,13 @@ export default function App() {
     }, [])
 
     return (
-        <div>
+        <>
             <main>
                 <div className='joke-div'>
                     <p className='joke'>{joke.joke}</p>
                 </div>
             </main>
-        </div>
+        </>
     )
 }
 
