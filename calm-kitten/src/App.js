@@ -6,6 +6,7 @@ import './App.css'
 
 import Header from './style_components/Header'
 import Footer from './style_components/Footer'
+import Joke from './page_components/Joke'
 
 export default class App extends Component {
 
@@ -16,9 +17,11 @@ export default class App extends Component {
           <Header />
         </header>
         <main>
-          <h1>I'm rendering</h1>
+          
         </main>
-        <Route></Route>
+        <Route path='/laughter'>
+          <Joke />
+        </Route>
         <footer>
           <Footer />
         </footer>
