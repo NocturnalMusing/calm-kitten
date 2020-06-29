@@ -7,3 +7,25 @@
     height: 100px; /* Remove me */
     /* Import a font family, make font style italic, remove text decoration and style for links */
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    padding-left: 0;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+}
