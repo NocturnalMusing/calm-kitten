@@ -45,7 +45,6 @@ _The goal for my MVP is to have the requisite data rendering on page when calls 
 - Use specific text input to trigger API calls
 - Implement Quotes API
 - Implement Dad Jokes API
-- Implement Photograph API
 - Render returned API call data onto page, accounting for mascot character
 - Implement a return to main page button either on <nav> or by clicking the mascot character
 - Style pages appropriately for content, ensure readability and ease of access for users
@@ -133,7 +132,6 @@ src
 | Input.js     |    class     |    y     |    n     |    n     | _Input area which accepts specific text input_ |
 |  Joke.js  | functional |   n   |   y   |   n   | _Page displaying a dad joke_ |
 |     Quote.js     | functional |   n   |   y   |   n   | _Page displaying an inspirational quote and who said it_ |
-|    Image.js     | functional |   n   |   y   |   n   | _Page background will change to a random nature image_ |
 |    Help.js    | functional |   n   |   n   |   n   | _A page displaying a scrollable div of suicide prevention hotlines_ |
 |   Header.js    |   class    |   n   |   n   |   n   | _A div containing the various headers_ |
 |  Button.js | functional |   n   |   y   |   y   | _A button, whose display text may change_ |
@@ -151,7 +149,6 @@ src
 | Use specific inputs to trigger specific API calls and page changes    |    H     |     3 hrs      |     TBD     |     TBD     |
 | Use API call to populate Joke.js     |    H     |     3 hrs      |     TBD     |     TBD     |
 | Use API call to populate Quote.js     |    H     |     3 hrs      |     TBD     |     TBD     |
-| Use API call to populate Picture.js     |    H     |     3 hrs      |     TBD     |     TBD     |
 | Populate Help.js with Information     |    H     |     30mins      |     TBD    |     TBD     |
 | Add Mascot to Pages     |    M     |     3 hrs      |     TBD     |     TBD     |
 | Add basic 'bounce' animation to mascot     |    M     |     30mins      |     TBD     |     TBD     |
@@ -159,12 +156,13 @@ src
 | Styling Changes for Tablet Version     |    L     |     3 hrs      |     TBD     |     TBD     |
 | Component Alterations for Mobile     |    H     |     3 hrs      |     TBD     |     TBD     |
 | Styling Changes for Mobile Version     |    M     |     3 hrs      |     TBD     |     TBD     |
-| TOTAL            |          |     30 hrs      |     TBD    |     TBD     |
+| TOTAL            |          |     27 hrs      |     TBD    |     TBD     |
 
 <br>
 
 ### Post-MVP
 
+- Implement Photograph API
 - Add background noise player ( rain ) with on / off button
 - Add interactivity with mascot character in response to further inputs
 - Add button to remove input and replace with easy access clickable buttons, which will take the user to the same pages as the previous input ( this is for ease of access )
