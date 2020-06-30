@@ -6,9 +6,9 @@ export default class Header extends Component {
         return (
             <div className='header'>
                 <p>Instructions:</p> 
-                <p>Type "I need a laugh" for a joke</p>
-                <p>Type "Tell me something kind" to read an uplifting quote</p>
-                <p>Type "I need help" if you feel (idk smth here)</p>
+                <p><em>type</em> "I need a laugh" <em>for a joke</em></p>
+                <p><em>type</em> "Tell me something kind" <em>to read an uplifting quote</em></p>
+                <p><em>type</em> "I need help" <em>if you feel (idk smth here)</em></p>
             </div>
         )
     }

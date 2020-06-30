@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import HeaderHome from '../style_components/HeaderHome'
+import EnterButton from '../style_components/EnterButton'
 
 import '../App.css'
 
@@ -31,7 +32,7 @@ export default function HomePage() {
             <HeaderHome />
             <form>
                 <input type='text' className='input' onChange={userInput} ></input>
-                <button onClick={redirect}>Replace Me</button>
+                <EnterButton onClick={redirect} />
             </form>
         </>
     )
