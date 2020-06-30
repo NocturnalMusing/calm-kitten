@@ -145,7 +145,7 @@ src
 | ---------------- | :------: | :------------: | :-----------: | :---------: |
 | Create Files |    H     |     10 mins      |     10mins    |    10mins    |
 | Create Header and Footer Components      |    H     |     1 hrs      |     TBD    |     TBD     |
-| Create Input Component     |    H     |     1 hrs      |     30mins     |     TBD     |
+| Create Input Component     |    H     |     1 hrs      |     25mins     |     25mins    |
 | Use specific inputs to trigger specific page changes   |    H     |     3 hrs      |     TBD     |     TBD     |
 | Use API call to populate Joke.js     |    H     |     3 hrs      |     30mins     |     30mins     |
 | Use API call to populate Quote.js     |    H     |     3 hrs      |     1hrs 15mins    |     1hrs 15mins     |
