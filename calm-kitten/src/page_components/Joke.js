@@ -4,6 +4,7 @@ import axios from 'axios'
 
 import '../App.css'
 import Header from '../style_components/Header'
+import AgainButton from '../style_components/AgainButton'
 
 export default function App() {
     let [joke, updateJoke] = useState([])
@@ -24,11 +25,13 @@ export default function App() {
         <header>
             <Header />
         </header>
-            <main>
-                <div className='joke-div'>
-                    <p className='joke'>{joke.joke}</p>
-                </div>
-            </main>
+        <main>
+            <div className='joke-div'>
+                <p className='joke'>{joke.joke}</p>
+            </div>
+
+            <AgainButton />
+        </main>
         </>
     )
 }

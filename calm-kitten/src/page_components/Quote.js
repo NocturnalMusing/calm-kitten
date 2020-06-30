@@ -4,6 +4,7 @@ import axios from 'axios'
 
 import '../App.css'
 import Header from '../style_components/Header'
+import AgainButton from '../style_components/AgainButton'
 
 export default function Quote() {
     let [quote, updateQuote] = useState([])
@@ -34,11 +35,17 @@ export default function Quote() {
 
     return (
         <>
-            <Header />
-            <div className='quote'>
-                <p className='text'>{quote.text}</p>
-                <p className='author'>{quote.author}</p>
-            </div>
+            <header>
+                <Header />
+            </header>
+            <main>
+                <div className='quote'>
+                    <p className='text'>{quote.text}</p>
+                    <p className='author'>{quote.author}</p>
+                </div>
+
+                <AgainButton />
+            </main>
         </>
     )
 }
