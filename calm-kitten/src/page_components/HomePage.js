@@ -15,10 +15,10 @@ export default function HomePage() {
     let redirect = () => {
         if (input === 'I need a laugh') {
             history.push('/laughter')
-        } else if (input) {
-
-        } else if (input) {
-
+        } else if (input === 'Tell me something kind') {
+            history.push('/wisdom')
+        } else if (input === 'I need help') {
+            history.push('/reach_out')
         } else {
 
         }
@@ -28,7 +28,7 @@ export default function HomePage() {
 
     return (
         <>
-        <HeaderHome />
+            <HeaderHome />
             <form>
                 <input type='text' className='input' onChange={userInput} ></input>
                 <button onClick={redirect}>Replace Me</button>
