@@ -30,7 +30,7 @@ export default function App() {
                 <p className='joke'>{joke.joke}</p>
             </div>
 
-            <AgainButton />
+            <AgainButton onClick={apiCall}/>
         </main>
         </>
     )

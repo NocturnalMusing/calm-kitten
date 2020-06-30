@@ -44,7 +44,7 @@ export default function Quote() {
                     <p className='author'>{quote.author}</p>
                 </div>
 
-                <AgainButton />
+                <AgainButton onClick={randomInt}/>
             </main>
         </>
     )
