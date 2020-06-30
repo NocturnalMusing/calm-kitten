@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 
+import Header from '../style_components/Header'
+
 export default class Help extends Component {
     render() {
         return (
             <>
+                <Header />
                 <div>
                     <p>Asking for help is always the first step, and I promise you aren't alone!</p>
                     <p>Please reach out, if not to someone you know, then to a stranger.</p>

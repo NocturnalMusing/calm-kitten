@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 import '../App.css'
+import Header from '../style_components/Header'
 
 export default function App() {
     let [joke, updateJoke] = useState([])
@@ -20,6 +21,9 @@ export default function App() {
 
     return (
         <>
+        <header>
+            <Header />
+        </header>
             <main>
                 <div className='joke-div'>
                     <p className='joke'>{joke.joke}</p>

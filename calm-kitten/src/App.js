@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import './App.css'
 
-import Header from './style_components/Header'
+import HeaderHome from './style_components/HeaderHome'
 import Footer from './style_components/Footer'
 import HomePage from './page_components/HomePage'
 import Joke from './page_components/Joke'
@@ -17,7 +17,7 @@ export default class App extends Component {
     return (
       <>
         <header>
-          <Header />
+          
         </header>
 
         <main>

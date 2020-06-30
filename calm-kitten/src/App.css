@@ -8,6 +8,11 @@
     /* Import a font family, make font style italic, remove text decoration and style for links */
 }
 
+.home {
+    text-decoration: none;
+    color: white;
+}
+
 .footer {
     display: flex;
     align-items: center;

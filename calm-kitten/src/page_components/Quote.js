@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 import '../App.css'
+import Header from '../style_components/Header'
 
 export default function Quote() {
     let [quote, updateQuote] = useState([])
@@ -33,6 +34,7 @@ export default function Quote() {
 
     return (
         <>
+            <Header />
             <div className='quote'>
                 <p className='text'>{quote.text}</p>
                 <p className='author'>{quote.author}</p>
