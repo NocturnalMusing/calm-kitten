@@ -145,11 +145,11 @@ src
 | ---------------- | :------: | :------------: | :-----------: | :---------: |
 | Create Files |    H     |     10 mins      |     10mins    |    10mins    |
 | Create Header and Footer Components      |    H     |     1 hrs      |     TBD    |     TBD     |
-| Create Input Component     |    H     |     1 hrs      |     TBD     |     TBD     |
+| Create Input Component     |    H     |     1 hrs      |     30mins     |     TBD     |
 | Use specific inputs to trigger specific page changes   |    H     |     3 hrs      |     TBD     |     TBD     |
 | Use API call to populate Joke.js     |    H     |     3 hrs      |     30mins     |     30mins     |
-| Use API call to populate Quote.js     |    H     |     3 hrs      |     1hrs    |     TBD     |
-| Populate Help.js with Information     |    H     |     30mins      |     TBD    |     TBD     |
+| Use API call to populate Quote.js     |    H     |     3 hrs      |     1hrs 15mins    |     1hrs 15mins     |
+| Populate Help.js with Information     |    H     |     10mins      |     TBD    |     TBD     |
 | Add Mascot to Pages     |    M     |     3 hrs      |     TBD     |     TBD     |
 | Add basic 'bounce' animation to mascot     |    M     |     30mins      |     TBD     |     TBD     |
 | Overall Styling in CSS   |    H     |     3 hrs      |     TBD     |     TBD     |

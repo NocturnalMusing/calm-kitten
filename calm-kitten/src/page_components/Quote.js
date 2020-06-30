@@ -6,35 +6,36 @@ import '../App.css'
 
 export default function Quote() {
     let [quote, updateQuote] = useState([])
-    let [ random, updateRandom ] = useState(0)
+    let [random, updateRandom] = useState(0)
 
     let randomInt = () => {
         let randomNum = Math.floor(Math.random() * 1643)
 
         updateRandom(randomNum)
-        console.log(random)
     }
 
     const apiCall = async () => {
         const data = await axios.get('https://type.fit/api/quotes')
-        
-        // console.log(data.data[random].author)
 
+        updateQuote(data.data[random])
     }
+
+    useEffect(() => {
+        randomInt()
+
+    }, [])
 
     useEffect(() => {
         apiCall()
 
-        updateQuote()
-
-        randomInt()
-    }, [])
+    }, [random])
+    // NOTE: By putting random in these brackets you're telling this useEffect to run when random updates
 
     return (
         <>
-            <div>
-                <p>This will be a quote</p>
-                <p>And this will be an author</p>
+            <div className='quote'>
+                <p className='text'>{quote.text}</p>
+                <p className='author'>{quote.author}</p>
             </div>
         </>
     )

@@ -27,5 +27,8 @@
     text-decoration: none;
     color: white;
     font-weight: 700;
-    
+}
+
+.footer a:hover {
+    color: skyblue; /* Change me to fit the color scheme of the page */
 }
