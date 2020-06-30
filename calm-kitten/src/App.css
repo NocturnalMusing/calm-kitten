@@ -35,8 +35,6 @@ body {
     bottom: 0;
     width: 100%;
     padding-left: 0;
-    background-color: black;
-    color: white;
     font-size: 15px;
     height: 25px;
     font-family: 'Patrick Hand', cursive;
@@ -44,8 +42,9 @@ body {
 
 .footer a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 700;
+    padding-right: 3px;
 }
 
 .footer a:hover {
