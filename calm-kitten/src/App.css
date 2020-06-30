@@ -4,13 +4,26 @@
     flex-direction: column;
     color: white;
     background-color: black;
-    height: auto; /* Remove me */
-    /* Import a font family, make font style italic, remove text decoration and style for links */
+    height: auto;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    line-height: 2px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.header em {
+    padding-right: 3px;
 }
 
 .home {
     text-decoration: none;
     color: white;
+}
+
+body {
+    /* background: radial-gradient(circle, white, skyblue); */
+    /* This doesn't look QUITE right...  */
 }
 
 .footer {
@@ -24,8 +37,9 @@
     padding-left: 0;
     background-color: black;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     height: 25px;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .footer a {
