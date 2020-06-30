@@ -132,7 +132,7 @@ src
 | Input.js     |    class     |    y     |    n     |    n     | _Input area which accepts specific text input_ |
 |  Joke.js  | functional |   n   |   y   |   n   | _Page displaying a dad joke_ |
 |     Quote.js     | functional |   n   |   y   |   n   | _Page displaying an inspirational quote and who said it_ |
-|    Help.js    | functional |   n   |   n   |   n   | _A page displaying a scrollable div of suicide prevention hotlines_ |
+|    Help.js    | functional |   n   |   n   |   n   | _A page displaying a kind message and the suicide prevention hotline_ |
 |   Header.js    |   class    |   n   |   n   |   n   | _A div containing the various headers_ |
 |  Button.js | functional |   n   |   y   |   y   | _A button, whose display text may change_ |
 |    Footer.js    | functional |   n   |   n   |   n   | _A div containing the footer_ |
@@ -149,7 +149,7 @@ src
 | Use specific inputs to trigger specific page changes   |    H     |     3 hrs      |     TBD     |     TBD     |
 | Use API call to populate Joke.js     |    H     |     3 hrs      |     30mins     |     30mins     |
 | Use API call to populate Quote.js     |    H     |     3 hrs      |     1hrs 15mins    |     1hrs 15mins     |
-| Populate Help.js with Information     |    H     |     10mins      |     TBD    |     TBD     |
+| Populate Help.js with Information     |    H     |     10mins      |     5mins    |     5mins     |
 | Add Mascot to Pages     |    M     |     3 hrs      |     TBD     |     TBD     |
 | Add basic 'bounce' animation to mascot     |    M     |     30mins      |     TBD     |     TBD     |
 | Overall Styling in CSS   |    H     |     3 hrs      |     TBD     |     TBD     |
@@ -164,6 +164,7 @@ src
 
 - Implement Photograph API
 - Add background noise player ( rain ) with on / off button
+- Add a scrollable div to the Help page including hotlines for international users
 - Add interactivity with mascot character in response to further inputs
 - Add button to remove input and replace with easy access clickable buttons, which will take the user to the same pages as the previous input ( this is for ease of access )
 - Following some research, implement a specifically anti-anxiety page 
