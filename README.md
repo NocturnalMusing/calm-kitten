@@ -144,9 +144,9 @@ src
 | Task             | Priority | Estimated Time | Time Invested | Actual Time |
 | ---------------- | :------: | :------------: | :-----------: | :---------: |
 | Create Files |    H     |     10 mins      |     10mins    |    10mins    |
-| Create Header and Footer Components      |    H     |     1 hrs      |     TBD    |     TBD     |
+| Create Header and Footer Components      |    H     |     1hrs 15mins     |     1hrs 15mins    |     TBD     |
 | Create Input Component     |    H     |     1 hrs      |     25mins     |     25mins    |
-| Use specific inputs to trigger specific page changes   |    H     |     3 hrs      |     TBD     |     TBD     |
+| Use specific inputs to trigger specific page changes   |    H     |     3 hrs      |     1hrs     |     1hrs     |
 | Use API call to populate Joke.js     |    H     |     3 hrs      |     30mins     |     30mins     |
 | Use API call to populate Quote.js     |    H     |     3 hrs      |     1hrs 15mins    |     1hrs 15mins     |
 | Populate Help.js with Information     |    H     |     10mins      |     5mins    |     5mins     |
