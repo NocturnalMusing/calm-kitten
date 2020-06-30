@@ -6,8 +6,8 @@ export default class Header extends Component {
     render() {
         return (
             <div className='header'>
-                <Link to='/'>
-                    <h2 className='home'>Home</h2>
+                <Link to='/' className='home'>
+                    <h2>Home</h2>
                 </Link>
             </div>
         )

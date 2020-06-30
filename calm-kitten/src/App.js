@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
-import axios from 'axios'
 
 import './App.css'
 
-import HeaderHome from './style_components/HeaderHome'
 import Footer from './style_components/Footer'
 import HomePage from './page_components/HomePage'
 import Joke from './page_components/Joke'
@@ -16,10 +14,6 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <header>
-          
-        </header>
-
         <main>
         <Route path='/' exact>
           <HomePage />
