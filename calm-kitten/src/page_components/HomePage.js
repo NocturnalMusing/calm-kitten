@@ -31,13 +31,16 @@ export default function HomePage() {
     return (
         <>
             <HeaderHome />
-            <div>
-                <img src={Blink} />
+            <div className='home-page'>
+                <div>
+                    <img src={Blink} className='blink'/>
+                </div>
+
+                <form>
+                    <input type='text' className='input' onChange={userInput} ></input>
+                    <EnterButton onClick={redirect} />
+                </form>
             </div>
-            <form>
-                <input type='text' className='input' onChange={userInput} ></input>
-                <EnterButton onClick={redirect} />
-            </form>
         </>
     )
 }

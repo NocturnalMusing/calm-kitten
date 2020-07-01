@@ -16,14 +16,56 @@
     padding-right: 3px;
 }
 
-.home {
+.home-link {
     text-decoration: none;
     color: white;
 }
 
 body {
-    /* background: radial-gradient(circle, white, skyblue); */
+    background: radial-gradient(circle, white, skyblue);
     /* This doesn't look QUITE right...  */
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.home-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page button {
+    width: 125px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+}
+
+.home-page input {
+    height: 50px;
+    width: 550px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* font-family: 'Patrick Hand', cursive;  */
+     /*Secondary font required  */
+    font-size: 25px;
+    font-style: italic;
+}
+
+:focus {
+    outline: none;
+}
+
+.blink {
+    height: 400px;   
 }
 
 .footer {
