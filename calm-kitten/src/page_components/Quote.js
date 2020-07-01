@@ -41,8 +41,8 @@ export default function Quote() {
             </header>
             <main className='quote-main'>
                 <div className='quote'>
-                    <p className='text'>{quote.text}</p>
-                    <p className='author'>{quote.author}</p>
+                    <p className='text'><em>"{quote.text}"</em></p>
+                    <p className='author'>- {quote.author}</p>
                 </div>
 
                 <div>
