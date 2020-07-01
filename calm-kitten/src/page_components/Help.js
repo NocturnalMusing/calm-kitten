@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import Header from '../style_components/Header'
 
+import SadBlink from '../assets/Mascot/img_SADBLINK.gif'
+
 export default class Help extends Component {
     render() {
         return (
@@ -15,6 +17,9 @@ export default class Help extends Component {
                     <p>1-800-273-8255</p>
                     <br />
                     <p>The world needs you in it! <i class="fas fa-heart"></i></p>
+                </div>
+                <div>
+                    <img src={SadBlink} />
                 </div>
             </>
         )

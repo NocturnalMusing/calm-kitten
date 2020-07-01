@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom'
 
 import HeaderHome from '../style_components/HeaderHome'
 import EnterButton from '../style_components/EnterButton'
+import Blink from '../assets/Mascot/img_BLINK.gif'
 
 import '../App.css'
 
@@ -30,6 +31,9 @@ export default function HomePage() {
     return (
         <>
             <HeaderHome />
+            <div>
+                <img src={Blink} />
+            </div>
             <form>
                 <input type='text' className='input' onChange={userInput} ></input>
                 <EnterButton onClick={redirect} />

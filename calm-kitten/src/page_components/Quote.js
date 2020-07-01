@@ -5,6 +5,7 @@ import axios from 'axios'
 import '../App.css'
 import Header from '../style_components/Header'
 import AgainButton from '../style_components/AgainButton'
+import Peace from '../assets/Mascot/img_PEACEFUL.png'
 
 export default function Quote() {
     let [quote, updateQuote] = useState([])
@@ -42,6 +43,10 @@ export default function Quote() {
                 <div className='quote'>
                     <p className='text'>{quote.text}</p>
                     <p className='author'>{quote.author}</p>
+                </div>
+
+                <div>
+                    <img src={Peace} />
                 </div>
 
                 <AgainButton onClick={randomInt}/>
