@@ -39,14 +39,14 @@ export default function Quote() {
             <header>
                 <Header />
             </header>
-            <main>
+            <main className='quote-main'>
                 <div className='quote'>
                     <p className='text'>{quote.text}</p>
                     <p className='author'>{quote.author}</p>
                 </div>
 
                 <div>
-                    <img src={Peace} />
+                    <img src={Peace} className='peace'/>
                 </div>
 
                 <AgainButton onClick={randomInt}/>
