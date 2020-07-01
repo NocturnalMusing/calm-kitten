@@ -26,13 +26,13 @@ export default function App() {
         <header>
             <Header />
         </header>
-        <main>
+        <main className='joke-main'>
             <div className='joke-div'>
                 <p className='joke'>{joke.joke}</p>
             </div>
 
             <div>
-                <img src={Laugh} />
+                <img src={Laugh} className='laugh'/>
             </div>
 
             <AgainButton onClick={apiCall}/>

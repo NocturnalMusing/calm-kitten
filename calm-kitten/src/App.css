@@ -1,3 +1,5 @@
+/****** HEADER COMPONENTS ******/
+
 .header {
     display: flex;
     align-items: center;
@@ -21,10 +23,14 @@
     color: white;
 }
 
+/****** BODY ******/
+
 body {
     background: radial-gradient(circle, white, skyblue);
     /* This doesn't look QUITE right...  */
 }
+
+/****** HOME PAGE ******/
 
 .home-page {
     display: flex;
@@ -67,6 +73,33 @@ body {
 .blink {
     height: 400px;   
 }
+
+/****** DAD JOKE PAGE ******/
+
+.joke-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.joke-div {
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+.laugh {
+    height: 400px;
+    padding-bottom: 25px;
+}
+
+/****** QUOTE PAGE ******/
+
+
+
+/****** FOOTER COMPONENT ******/
 
 .footer {
     display: flex;
