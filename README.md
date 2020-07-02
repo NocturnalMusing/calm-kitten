@@ -165,6 +165,7 @@ src
 - Implement Photograph API
 - Add background noise player ( rain ) with on / off button
 - Add a scrollable div to the Help page including hotlines for international users
+- Hotlines ( Crisis Text Line, Trans Lifeline, reference warmlines, Trevor Lifeline, Veterans Crisis Line NSPL Spanish )
 - Add interactivity with mascot character in response to further inputs
 - Add button to remove input and replace with easy access clickable buttons, which will take the user to the same pages as the previous input ( this is for ease of access )
 - Following some research, implement a specifically anti-anxiety page 
