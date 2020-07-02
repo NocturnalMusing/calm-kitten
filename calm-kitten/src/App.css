@@ -40,6 +40,7 @@ button {
     line-height: 2px;
     padding-bottom: 12px;
     padding-top: 12px;
+    width: 100%;
 }
 
 .header h3 {
@@ -249,6 +250,61 @@ button {
     padding-right: 20px;
 }
 
+/****** MOBILE ******/
 
 @media all and (max-width: 425px) {
+   .blink,
+   .laugh,
+   .peace {
+       height: 250px;
+   }
+
+   .header {
+       font-size: 16px;
+   }
+
+   .home-page input {
+       margin-left: 0px;
+       width: 300px;
+   }
+
+   .home-page button {
+       margin-left: 0px;
+   }
+
+   .joke-div,
+   .quote {
+       margin-top: -100px;
+       width: 300px;
+       text-align: center;
+   }
+
+   .quote {
+       padding-bottom: 10px;
+   }
+
+   .quote-main {
+       margin-top: 50px;
+   }
+
+   .reach-out {
+       font-size: 18px;
+       text-align: center;
+       padding-left: 15px;
+       padding-right: 15px;
+       line-height: normal;
+       margin-top: -70px;
+   }
+
+   .sad-blink {
+       height: 150px;
+       margin-top: 20px;
+   }
+
+   .again {
+       height: 85px;
+       width: 250px;
+       font-size: 30px;
+       margin-left: 65px;
+   }
 }
