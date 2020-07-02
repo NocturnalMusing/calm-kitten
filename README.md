@@ -151,10 +151,9 @@ src
 | Use API call to populate Quote.js     |    H     |     3 hrs      |     1hrs 15mins    |     1hrs 15mins     |
 | Populate Help.js with Information     |    H     |     10mins      |     5mins    |     5mins     |
 | Add Mascot to Pages     |    M     |     3 hrs      |     15mins     |     15mins     |
-| Add basic 'bounce' animation to mascot     |    M     |     30mins      |     TBD     |     TBD     |
-| Overall Styling in CSS   |    H     |     3 hrs      |     1hrs     |     TBD     |
+| Add basic 'bounce' animation to mascot     |    M     |     30mins      |     15mins    |     15mins     |
+| Overall Styling in CSS   |    H     |     3 hrs      |     3hrs     |     3hrs     |
 | Styling Changes for Tablet Version     |    L     |     3 hrs      |     0hrs     |     0hrs     |
-| Component Alterations for Mobile     |    H     |     3 hrs      |     TBD     |     TBD     |
 | Styling Changes for Mobile Version     |    M     |     3 hrs      |     TBD     |     TBD     |
 | TOTAL            |          |     27 hrs      |     TBD    |     TBD     |
 
