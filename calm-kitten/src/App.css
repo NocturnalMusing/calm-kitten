@@ -10,6 +10,13 @@ button {
     font-family: 'Patrick Hand', cursive;
 }
 
+.again {
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+
 /****** HEADER COMPONENTS ******/
 
 .header {
@@ -17,16 +24,17 @@ button {
     align-items: center;
     flex-direction: column;
     color: rgb(135, 167, 235);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     height: auto;
     font-family: 'Patrick Hand', cursive;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2px;
     padding-bottom: 12px;
     padding-top: 12px;
 }
 
 .header h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .header em {
@@ -36,7 +44,11 @@ button {
 
 .home-link {
     text-decoration: none;
-    color: white;
+    color: rgb(135, 167, 235);
+}
+
+.home-link:hover {
+    color: rgb(183, 203, 248);
 }
 
 /****** HOME PAGE ******/
@@ -112,7 +124,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: 'Abril Fatface', cursive;
 }
 
@@ -120,7 +132,7 @@ button {
     font-size: 30px;
     width: 500px;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .peace {
@@ -149,7 +161,7 @@ button {
 }
 
 .nspl-number:hover {
-    color: skyblue;
+    color: rgb(183, 203, 248);
 }
 
 .smalltext {
@@ -169,24 +181,29 @@ button {
 .footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-shrink: 0;
     position: fixed; 
     bottom: 0;
     width: 100%;
     padding-left: 0;
+    padding-bottom: 10px;
+    /* padding-right: 10px; */
     font-size: 15px;
     height: 25px;
     font-family: 'Patrick Hand', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 rgb(197, 180, 232), 0 1px rgb(197, 180, 232),
+    1px 0 rgb(197, 180, 232), 0 -1px rgb(197, 180, 232);
 }
 
 .footer a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     padding-right: 3px;
 }
 
 .footer a:hover {
-    color: skyblue; /* Change me to fit the color scheme of the page */
+    color: rgb(217, 207, 247);
 }

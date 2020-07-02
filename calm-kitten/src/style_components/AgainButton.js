@@ -3,7 +3,7 @@ import React from 'react'
 export default function Button(props) {
     return (
         <>
-            <button onClick={props.onClick}>decide what i say u fool</button>
+            <button onClick={props.onClick} className='again'>Tell me another</button>
         </>
     )
 }
