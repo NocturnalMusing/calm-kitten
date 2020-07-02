@@ -170,6 +170,7 @@ src
 - Add button to remove input and replace with easy access clickable buttons, which will take the user to the same pages as the previous input ( this is for ease of access )
 - Following some research, implement a specifically anti-anxiety page 
 - Add "Show me something cute" to generate animal pictures instead
+- Adjust font-sizes depending on length of joke / quote to account for objects moving around DOM
 
 <br>
 

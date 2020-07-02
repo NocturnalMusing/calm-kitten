@@ -14,11 +14,6 @@ button {
     box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-button:active {
-    height: -15px;
-    width: -25px;
-}
-
 .again {
     font-size: 20px;
     border: none;
@@ -26,8 +21,6 @@ button:active {
     width: 150px;
     border-radius: 50px;
     align-self: baseline;
-    position: fixed;
-    margin-top: 65%;
     margin-left: 100px;
 }
 
@@ -107,6 +100,7 @@ button:active {
 
 :focus {
     outline: none;
+    box-shadow: 0px 0px 35px rgb(255, 255, 255);
 }
 
 @keyframes bounce {
@@ -127,6 +121,7 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding-top: 100px;
     color: rgb(187, 148, 218);
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -138,7 +133,6 @@ button:active {
     font-size: 40px;
     width: 500px;
     text-align: center;
-    padding-bottom: 110px;
 }
 
 .laugh {
@@ -253,4 +247,8 @@ button:active {
 
 .footer p {
     padding-right: 20px;
+}
+
+
+@media all and (max-width: 425px) {
 }
