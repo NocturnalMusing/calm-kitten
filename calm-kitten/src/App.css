@@ -8,13 +8,18 @@ body {
 
 button {
     font-family: 'Patrick Hand', cursive;
+    background: linear-gradient(rgb(217, 209, 247), rgb(231, 227, 252));
+    color: rgb(135, 167, 235);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .again {
     font-size: 20px;
     border: none;
-    height: 50px;
+    height: 35px;
     width: 150px;
+    border-radius: 50px;
 }
 
 /****** HEADER COMPONENTS ******/
@@ -23,6 +28,8 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgba( 255, 255, 255, .3);
+    box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     color: rgb(135, 167, 235);
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     height: auto;
@@ -66,6 +73,7 @@ button {
 }
 
 .home-page button {
+    margin-left: 450px;
     width: 125px;
     height: 50px;
     margin-top: 20px;
