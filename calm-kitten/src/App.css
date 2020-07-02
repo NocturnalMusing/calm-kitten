@@ -14,12 +14,21 @@ button {
     box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+button:active {
+    height: -15px;
+    width: -25px;
+}
+
 .again {
     font-size: 20px;
     border: none;
     height: 35px;
     width: 150px;
     border-radius: 50px;
+    align-self: baseline;
+    position: fixed;
+    margin-top: 65%;
+    margin-left: 100px;
 }
 
 /****** HEADER COMPONENTS ******/
@@ -100,8 +109,16 @@ button {
     outline: none;
 }
 
+@keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px) }
+}
+
 .blink {
     height: 400px;   
+    animation: bounce 1.0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 /****** DAD JOKE PAGE ******/
@@ -111,6 +128,8 @@ button {
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
+    color: rgb(187, 148, 218);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-family: 'Patrick Hand', cursive;
     font-weight: 700;
 }
@@ -125,6 +144,9 @@ button {
 .laugh {
     height: 400px;
     padding-bottom: 25px;
+    animation: bounce 1.0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 /****** QUOTE PAGE ******/
@@ -134,6 +156,8 @@ button {
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+    color: rgb(187, 148, 218);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-family: 'Abril Fatface', cursive;
 }
 
@@ -147,6 +171,10 @@ button {
 .peace {
     height: 400px;
     padding-bottom: 25px;
+    animation: bounce 1.0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
 }
 
 /****** HELP PAGE ******/
@@ -159,6 +187,8 @@ button {
     font-size: 25px;
     font-family: 'Patrick Hand', cursive;
     line-height: 10px;
+    color: rgb(187, 148, 218);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .nspl-number {
@@ -167,6 +197,8 @@ button {
     text-decoration: none;
     color: black;
     margin-top: 30px;
+    color: rgb(189, 152, 231);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .nspl-number:hover {
@@ -183,6 +215,9 @@ button {
 .sad-blink {
     margin-top: 90px;
     height: 250px;
+    animation: bounce 1.0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 /****** FOOTER COMPONENT ******/
@@ -197,7 +232,6 @@ button {
     width: 100%;
     padding-left: 0;
     padding-bottom: 10px;
-    /* padding-right: 10px; */
     font-size: 15px;
     height: 25px;
     font-family: 'Patrick Hand', cursive;
@@ -215,4 +249,8 @@ button {
 
 .footer a:hover {
     color: rgb(217, 207, 247);
+}
+
+.footer p {
+    padding-right: 20px;
 }
