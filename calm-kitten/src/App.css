@@ -1,11 +1,22 @@
+/****** UNIVERSAL ******/
+
+body {
+    display: cover;
+    background: radial-gradient(circle, rgb(255, 255, 255),
+     rgb(220, 242, 249), rgb(193, 234, 255), rgb(204, 201, 255));
+}
+
+button {
+    font-family: 'Patrick Hand', cursive;
+}
+
 /****** HEADER COMPONENTS ******/
 
 .header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: white;
-    background-color: black;
+    color: rgb(135, 167, 235);
     height: auto;
     font-family: 'Patrick Hand', cursive;
     font-size: 18px;
@@ -14,24 +25,18 @@
     padding-top: 12px;
 }
 
+.header h3 {
+    font-size: 25px;
+}
+
 .header em {
     padding-right: 3px;
+    font-weight: 700;
 }
 
 .home-link {
     text-decoration: none;
     color: white;
-}
-
-/****** UNIVERSAL ******/
-
-body {
-    background: radial-gradient(circle, white, skyblue);
-    /* This doesn't look QUITE right...  */
-}
-
-button {
-    font-family: 'Patrick Hand', cursive;
 }
 
 /****** HOME PAGE ******/
