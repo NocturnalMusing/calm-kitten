@@ -154,8 +154,8 @@ src
 | Add basic 'bounce' animation to mascot     |    M     |     30mins      |     15mins    |     15mins     |
 | Overall Styling in CSS   |    H     |     3 hrs      |     3hrs     |     3hrs     |
 | Styling Changes for Tablet Version     |    L     |     3 hrs      |     0hrs     |     0hrs     |
-| Styling Changes for Mobile Version     |    M     |     3 hrs      |     TBD     |     TBD     |
-| TOTAL            |          |     27 hrs      |     TBD    |     TBD     |
+| Styling Changes for Mobile Version     |    M     |     3 hrs      |     1hrs     |     1hrs     |
+| TOTAL            |          |     27 hrs      |     9hrs    |     9hrs     |
 
 <br>
 
